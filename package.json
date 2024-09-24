@@ -1,0 +1,43 @@
+{
+  "name": "compression",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run:zipAndEncryptString": "tsx ./src/zipAndEncryptString.ts",
+    "run:zipAndEncryptMultipleFiles": "tsx ./src/zipAndEncryptMultipleFiles.ts",
+    "run:zipFileAndBundleWithMetadata": "tsx ./src/zipFileAndBundleWithMetadata.ts"
+  },
+  "author": "FedericoAmura",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/jest": "27.4.1",
+    "@types/jszip": "^3.4.1",
+    "@types/node": "18.19.18",
+    "@typescript-eslint/eslint-plugin": "6.21.0",
+    "@typescript-eslint/parser": "6.21.0",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.9.0",
+    "jest": "29.1.2",
+    "prettier": "^3.3.3",
+    "ts-jest": "29.1.2",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.3.0"
+  },
+  "dependencies": {
+    "@lit-protocol/auth-helpers": "^6.4.10",
+    "@lit-protocol/constants": "^6.4.10",
+    "@lit-protocol/encryption": "^6.4.10",
+    "@lit-protocol/lit-node-client": "^6.4.10",
+    "@lit-protocol/misc": "^6.4.10",
+    "@lit-protocol/types": "^6.4.10",
+    "@lit-protocol/uint8arrays": "^6.4.10",
+    "ethers": "^5.7.2",
+    "jszip": "^3.10.1"
+  }
+}
