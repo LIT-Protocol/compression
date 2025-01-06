@@ -48,7 +48,7 @@ export interface EncryptFileAndZipWithMetadataProps
   readme?: string;
 }
 
-export interface DecryptZipFileWithMetadataProps extends SessionSigsOrAuthSig {
+export type DecryptZipFileWithMetadataProps = SessionSigsOrAuthSig & {
   file: Blob | Uint8Array;
 }
 
